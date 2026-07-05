@@ -1,0 +1,4 @@
+function theMostPowerfulWord(input) {
+
+}
+theMostPowerfulWord();

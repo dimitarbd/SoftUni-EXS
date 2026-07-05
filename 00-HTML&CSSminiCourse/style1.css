@@ -1,0 +1,39 @@
+body {
+    margin: auto;
+    font-family: Arial;
+    text-align: 3px justify;
+}
+
+
+nav {
+    background: #234465;
+    padding: 10px;
+    width: 100%;
+    margin: 80 auto;
+}
+
+nav li {
+    padding: 0 30px;
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    justify-self: end;
+    background: #234465;
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
