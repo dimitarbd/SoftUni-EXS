@@ -1,0 +1,68 @@
+{{ 'component-announcement.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+   .announcement-bar {
+      --page-width: {{ section.settings.page_width | divided_by: 10 }}rem; 
+    }  
+{%- endstyle -%}
+
+
+
+{% schema %}
+{
+  "name": "t:sections.announcement-bar.name",
+  "max_blocks": 12,
+  "class": "announcement-bar-section",
+  "blocks": [
+    {
+      "type": "announcement",
+      "name": "t:sections.announcement-bar.blocks.announcement.name",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Upgrade your store with Vendy Pro OS 2.0 theme"
+        }
+      ]
+    },
+    {
+      "type": "announcement-image",
+      "name": "t:sections.announcement-bar.blocks.announcement-image.name",
+      "settings": [
+         {
+          "type": "header",
+          "content": "Upgrade your store with Vendy Pro OS 2.0 theme"
+        }
+      ]
+    },
+     {
+      "type": "announcement-coupon",
+      "name": "t:sections.announcement-bar.blocks.announcement-coupon.name",
+      "limit": 1,
+      "settings": [
+         {
+          "type": "header",
+          "content": "Upgrade your store with Vendy Pro OS 2.0 theme"
+        }
+      ]
+    }
+  ],
+  "settings": [
+        {
+          "type": "header",
+          "content": "Upgrade your store with Vendy Pro OS 2.0 theme"
+        }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "announcement"
+      }
+    ]
+  }
+}
+{% endschema %}
+
+  
+
+
+

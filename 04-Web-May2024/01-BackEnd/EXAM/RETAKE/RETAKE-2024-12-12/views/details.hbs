@@ -1,0 +1,49 @@
+{{#with product}}
+<article class="product-detail">
+    <img src="{{image}}">
+    <h2>{{name}}</h2>
+    <p>{{description}}</p>
+
+    <h3>|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|</h3>
+
+    <h3>Key Ingredients:</h3>
+    <p>{{ingredients}}</p>
+
+    <h3>|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|</h3>
+
+    <h3>Benefits:</h3>
+    <p>{{benefits}}</p>
+
+    <h3>|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|</h3>
+
+    <h3>Skin Type:</h3>
+    <p>Suitable for: {{skin}}</p>
+
+    <h3>|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|</h3>
+
+    <h3>Price: ${{price}}</h3>
+
+    <h3>|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|</h3>
+
+    <h3>People Who Recommend: {{recommends}}</h3>
+</article>
+
+{{#if hasUser}}
+<div class="command">
+    {{#if isAuthor}}
+
+    <a href="/edit/{{_id}}">Edit</a>
+    <a href="/delete/{{_id}}">Delete</a>
+
+    {{else}}
+    {{#if hasRecommend}}
+    <p>You've already recommended this product!</p>
+    {{else}}
+    <a href="/recommend/{{_id}}">Recommend</a>
+    {{/if}}
+    {{/if}}
+
+</div>
+{{/if}}
+
+{{/with}}

@@ -1,0 +1,176 @@
+{
+    "455bf2d6-e4b7-452b-8c5c-642130ee3d89": {
+        "title": "Oranges",
+        "category": "Fruits & Nut Gifts",
+        "price": "1.39",
+        "quantity": "11",
+        "shipping": "2",
+        "weight": "1",
+        "description": "Oranges are citrus fruits with fragrant, leathery skin and juicy flesh. The most common types are the sweet (or common) orange, the sour (or Seville) orange, and the mandarin orange. The sweet orange is the most widely grown citrus fruit in the world.",
+        "imageUrl": "/public/img/categories/cat-1.jpg",
+        "_id": "455bf2d6-e4b7-452b-8c5c-642130ee3d89"
+    },
+    "754eb7e1-05e0-4212-9011-bc174b9e39ed": {
+        "title": "Dried Fruits",
+        "category": "Fruits & Nut Gifts",
+        "price": "2.39",
+        "quantity": "21",
+        "shipping": "3",
+        "weight": "1",
+        "description": "Fruit, Nut And Seed Mix 400g. Made from a blend of golden raisins, almonds, pumpkin and sunflower seeds for a satisfying healthy snack.",
+        "imageUrl": "/public/img/categories/cat-2.jpg",
+        "_id": "754eb7e1-05e0-4212-9011-bc174b9e39ed"
+    },
+    "64846696-5d0c-4bee-9253-f6c7b1f5e1c0": {
+        "title": "Vegetables’package",
+        "category": "Vegetables",
+        "price": "12.39",
+        "quantity": "12",
+        "shipping": "3",
+        "weight": "1",
+        "description": "Flavour as it should be. Fruits, vegetables and herbs: from small farms, from individual farmers with a passion for what they grow, how they grow it and for their land.",
+        "imageUrl": "/img/categories/cat-3.jpg",
+        "_id": "64846696-5d0c-4bee-9253-f6c7b1f5e1c0"
+    },
+    "1d21b4bd-1523-41e2-b49a-68168f3c9750": {
+        "title": "Fruit juice",
+        "category": "Fruits & Nut Gifts",
+        "price": "2.69",
+        "quantity": "31",
+        "shipping": "3",
+        "weight": "1",
+        "description": "Fruit juice is an unfermented but fermentable liquid commonly obtained from an edible part of the fruit. The juice is prepared by a suitable process which maintains the essential physical, chemical, organoleptic, and nutritional characteristics of the juices of the fruit from which it comes.",
+        "imageUrl": "/img/categories/cat-4.jpg",
+        "_id": "1d21b4bd-1523-41e2-b49a-68168f3c9750"
+    },
+    "c703e66a-ec16-44ba-a0ac-6f0ef180d45b": {
+        "title": "Beef meat",
+        "category": "Fresh meat",
+        "price": "12.69",
+        "quantity": "31",
+        "shipping": "3",
+        "weight": "1",
+        "description": "Meat is valued as a complete protein food containing all the amino acids necessary for the human body. The fat of meat, which varies widely with the species, quality, and cut, is a valuable source of energy and also influences the flavour, juiciness, and tenderness of the lean. Parts such as livers, kidneys, hearts, and other portions are excellent sources of vitamins and of essential minerals, easily assimilated by the human system.",
+        "imageUrl": "/img/categories/cat-5.jpg",
+        "_id": "c703e66a-ec16-44ba-a0ac-6f0ef180d45b"
+    },
+    "e99078b8-613f-4fd9-9ca3-45f4ff138c11": {
+        "title": "Bananas",
+        "category": "Fruits & Nut Gifts",
+        "price": "2.69",
+        "quantity": "23",
+        "shipping": "3",
+        "weight": "1",
+        "description": "A banana is a curved, yellow fruit with a thick skin and soft sweet flesh. If you eat a banana every day for breakfast, your roommate might nickname you 'the monkey'. A banana is a tropical fruit that's quite popular all over the world. It grows in bunches on a banana tree.",
+        "imageUrl": "/img/featured/feature-2.jpg",
+        "_id": "e99078b8-613f-4fd9-9ca3-45f4ff138c11"
+    },
+    "4e5928cf-8a71-4808-b944-d00bc73984e4": {
+        "title": "Guava",
+        "category": "Fruits & Nut Gifts",
+        "price": "2.69",
+        "quantity": "23",
+        "shipping": "3",
+        "weight": "1",
+        "description": "The fruits are round to pear-shaped and measure up to 7.6 cm in diameter; their pulp contains many small hard seeds (more abundant in wild forms than in cultivated varieties). The fruit has a yellow skin and white, yellow, or pink flesh. The musky, at times pungent, odour of the sweet pulp is not always appreciated.",
+        "imageUrl": "/img/featured/feature-3.jpg",
+        "_id": "4e5928cf-8a71-4808-b944-d00bc73984e4"
+    },
+    "884cc133-4c68-48af-a722-ced93fc2e62d": {
+        "title": "Watermelon",
+        "category": "Fruits & Nut Gifts",
+        "price": "0.69",
+        "quantity": "43",
+        "shipping": "3",
+        "weight": "1",
+        "description": "The fruit is a type of berry known botanically as a pepo. The sweet juicy flesh may be reddish, white, or yellow; flesh colour, shape of the fruit, and thickness of the rind depend on the variety. Watermelon weight varies from 1 to 2 kg (2.5 to 5 pounds) to 20 kg (44 pounds) or more.",
+        "imageUrl": "/img/featured/feature-4.jpg",
+        "_id": "884cc133-4c68-48af-a722-ced93fc2e62d"
+    },
+    "1777bf92-cf39-4f56-b54d-2965529958d3": {
+        "title": "Grapes",
+        "category": "Fruits & Nut Gifts",
+        "price": "1.69",
+        "quantity": "13",
+        "shipping": "3",
+        "weight": "1",
+        "description": "A grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis. Grapes are a non-climacteric type of fruit, generally occurring in clusters. The cultivation of grapes began perhaps 8,000 years ago, and the fruit has been used as human food over history.",
+        "imageUrl": "/img/featured/feature-5.jpg",
+        "_id": "1777bf92-cf39-4f56-b54d-2965529958d3"
+    },
+    "b213ff20-2964-4ba3-b574-0d326f558e6c": {
+        "title": "Burger",
+        "category": "Fast food",
+        "price": "3.69",
+        "quantity": "13",
+        "shipping": "3",
+        "weight": "1",
+        "description": "A burger is a patty of ground beef grilled and placed between two halves of a bun. Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor. Burgers are considered an American food but are popular around the world. In Japan, teriyaki burgers are popular.",
+        "imageUrl": "/img/featured/feature-6.jpg",
+        "_id": "b213ff20-2964-4ba3-b574-0d326f558e6c"
+    },
+    "f0c56d44-2f65-4fe3-b573-b322ea4cb6c1": {
+        "title": "Mango",
+        "category": "Fruits & Nut Gifts",
+        "price": "2.29",
+        "quantity": "23",
+        "shipping": "3",
+        "weight": "1",
+        "description": "A mango is a sweet tropical fruit, and it's also the name of the trees on which the fruit grows. Ripe mangoes are juicy, fleshy, and delicious. Like peaches and plums, mangoes have an inedible pit at the center. Unlike these other fruits, the skin of a mango is very tough and also inedible.",
+        "imageUrl": "/img/featured/feature-7.jpg",
+        "_id": "f0c56d44-2f65-4fe3-b573-b322ea4cb6c1"
+    },
+    "49a668f5-4110-40b7-adbd-e4c8fc621166": {
+        "title": "Apples",
+        "category": "Fruits & Nut Gifts",
+        "price": "2.29",
+        "quantity": "23",
+        "shipping": "3",
+        "weight": "1",
+        "description": "The apple is one of the pome (fleshy) fruits. Apples at harvest vary widely in size, shape, colour, and acidity, but most are fairly round and some shade of red or yellow. The thousands of varieties fall into three broad classes: cider, cooking, and dessert varieties.",
+        "imageUrl": "/img/featured/feature-8.jpg",
+        "_id": "49a668f5-4110-40b7-adbd-e4c8fc621166"
+    },
+    "afa54fb9-ccae-40fa-816b-a86c640ba615": {
+        "title": "Oatmeal",
+        "category": "Oatmeal",
+        "price": "2.29",
+        "quantity": "23",
+        "shipping": "3",
+        "weight": "1",
+        "description": "Oatmeal is a preparation of oats that have been de-husked, steamed, and flattened, or a coarse flour of hulled oat grains (groats) that have either been milled (ground), rolled, or steel-cut. Ground oats are also called white oats. Steel-cut oats are known as coarse oatmeal, Irish oatmeal, or pinhead oats.",
+        "imageUrl": "/img/featured/feature-9.jpg",
+        "_id": "afa54fb9-ccae-40fa-816b-a86c640ba615"
+    },
+    "d9ff113a-b98c-4f6b-be1c-86c9b22d6646": {
+        "title": "Strawberries",
+        "category": "Fresh Berries",
+        "price": "3.29",
+        "quantity": "8",
+        "description": "Strawberries are soft, sweet, bright red berries. They're also delicious. Strawberries have tiny edible seeds, which grow all over their surface. When ripe, strawberries smell wonderful and taste even better.",
+        "imageUrl": "/img/featured/feature-10.jpg",
+        "_id": "d9ff113a-b98c-4f6b-be1c-86c9b22d6646"
+    },
+    "8070515b-c7a6-4afa-a73a-a4583cbb044f": {
+        "title": "Butter",
+        "category": "Butter & Eggs",
+        "price": "5.29",
+        "quantity": "18",
+        "shipping": "3",
+        "weight": "1",
+        "description": "Butter is a dairy product made from separating whole milk or cream into fat and buttermilk. The fat is compressed and chilled into blocks of butter. It can be used directly as a condiment or melted for frying or coating.",
+        "imageUrl": "/img/featured/feature-11.jpg",
+        "_id": "8070515b-c7a6-4afa-a73a-a4583cbb044f"
+    },
+    "38c43349-c278-48d2-85b9-eea7064be6c4": {
+        "title": "Surimi Crab",
+        "category": "Ocean Foods",
+        "price": "3.29",
+        "quantity": "28",
+        "shipping": "3",
+        "weight": "1",
+        "description": "Ocean Food surimi crab is sold fresh, never frozen and comes already cooked. It is available in leg and flake form, as well as in lobster flake form.  Surimi crab legs appear sophisticated, much like real crab legs and can be served cold or hot. Another popular way to serve crab legs is in sushi or gimbap. The legs can be flaked, paired with a dipping sauce and served as an appetizer. The flake-form surimi crab products are convenient for using in salads, pastas, sandwiches and dips.",
+        "imageUrl": "/img/featured/feature-12.jpg",
+        "_id": "38c43349-c278-48d2-85b9-eea7064be6c4"
+    }
+}

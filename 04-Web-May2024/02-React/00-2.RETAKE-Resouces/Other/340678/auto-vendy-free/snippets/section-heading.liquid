@@ -1,0 +1,13 @@
+{% if sec_set.heading != blank or sec_set.subheading != blank or sec_set.description != blank %}
+    <div class="section__header title text-{{ sec_set.header_align }}">
+        {% if sec_set.subheading != blank %}
+            <div class="section__subheading">{{ sec_set.subheading }}</div>  
+        {% endif %}
+        {% if sec_set.heading != blank %}
+            <h2 class="section__heading">{{ sec_set.heading }}</h2> 
+        {% endif %}
+        {% if sec_set.description != blank %}
+            <div class="section__description">{{ sec_set.description }}</div>  
+        {% endif %}
+    </div>
+{% endif %}  

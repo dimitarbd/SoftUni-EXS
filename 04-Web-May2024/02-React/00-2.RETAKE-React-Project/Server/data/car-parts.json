@@ -1,0 +1,86 @@
+{
+    "dded749d-5a91-4c10-8211-a3af649c43c0": {
+        "title": "S837 Haze Wheels",
+        "category": "Wheels and Tires",
+        "brand": "Buxton",
+        "price": "400",
+        "year": "2019",
+        "quantity": "14",
+        "imageUrl": "/images/product/large-size/1.jpg",
+        "rating": "4",
+        "description": "The S837 Haze wheels are a stylish and durable option for your vehicle. The wheels are made of high-quality materials, ensuring long-lasting performance and reliability. They are designed to provide a smooth and comfortable ride, while also enhancing the appearance of your vehicle. The wheels are available in a variety of sizes and finishes, allowing you to customize the look of your vehicle to suit your preferences. The S837 Haze wheels are easy to install and maintain, making them a convenient and practical choice for your vehicle. Whether you are looking to upgrade your current wheels or simply want to add a touch of style to your vehicle, the S837 Haze wheels are an excellent choice. They are a great way to enhance the performance and appearance of your vehicle, while also expressing your personal style.",
+        "_id": "dded749d-5a91-4c10-8211-a3af649c43c0"
+    },
+    "dba62041-1269-403c-a717-ea7e14c3a9ec": {
+        "title": "Universal AC Vent Cupholder",
+        "category": "Interior and Comfort",
+        "brand": "TENDYCOCO",
+        "price": "9",
+        "year": "2019",
+        "quantity": "1",
+        "imageUrl": "/images/product/large-size/2.jpg",
+        "rating": "3",
+        "description": "The universal AC vent cupholder is a convenient accessory that allows you to keep your drink within easy reach while driving. The cupholder attaches to the air vent in your vehicle, providing a stable and secure place to hold your cup or bottle. The cupholder is adjustable, allowing it to accommodate different sizes of cups and bottles. It is made of high-quality materials, ensuring durability and long-lasting performance. The cupholder is easy to install and remove, making it a versatile and practical accessory for your vehicle. Whether you are on a long road trip or just running errands around town, the universal AC vent cupholder is a useful addition to your vehicle. It is a great way to stay hydrated and comfortable while on the road.",
+        "_id": "dba62041-1269-403c-a717-ea7e14c3a9ec"
+    },    
+    "76ca2307-0459-41ba-a477-056d3726e5b2": {
+        "title": "Road King Special 107 ABS 2017",
+        "category": "Braking System",
+        "brand": "Harley Davidson",
+        "price": "605",
+        "year": "2024",
+        "quantity": "8",
+        "imageUrl": "/images/product/large-size/3.jpg",
+        "rating": "5",
+        "description": "The braking system is a critical component of any vehicle, as it is responsible for slowing down and stopping the vehicle. The system consists of several components, including the brake pads, rotors, calipers, and brake lines. When the driver presses the brake pedal, hydraulic pressure is generated, which forces the brake pads against the rotors, slowing down the vehicle. The ABS system helps prevent the wheels from locking up during hard braking, improving control and stability. The braking system is essential for safe driving, as it allows the driver to stop the vehicle quickly and efficiently. It is important to maintain the braking system in good condition to ensure optimal performance and safety. Regular inspections and maintenance are recommended to keep the system functioning properly.",
+        "_id": "76ca2307-0459-41ba-a477-056d3726e5b2"
+    },
+    "5ed18427-b532-40c3-8f4c-c2c069e64967": {
+        "title": "Electromechanical Actuator",
+        "category": "Braking System",
+        "brand": "Brembo",
+        "price": "355",
+        "year": "2020",
+        "quantity": "4",
+        "imageUrl": "/images/product/large-size/4.jpg",
+        "rating": "5",
+        "description": "The electromechanical actuator is a device that converts electrical energy into mechanical energy. It is used in various applications, such as robotics, automotive systems, and industrial machinery. The actuator consists of an electric motor, a gearbox, and a control system. The motor generates rotational motion, which is transmitted to the gearbox. The gearbox converts the rotational motion into linear motion, which is used to actuate a mechanism. The control system regulates the speed and position of the actuator, ensuring precise and reliable operation. The actuator is compact, lightweight, and energy-efficient, making it ideal for use in space-constrained applications. It is also durable and reliable, providing long-lasting performance in demanding environments.",
+        "_id": "5ed18427-b532-40c3-8f4c-c2c069e64967"
+    },
+    "36b52dce-1d28-4031-8e33-4b0e9d246429": {
+        "title": "iBooster",
+        "category": "Braking System",
+        "brand": "Bosch",
+        "price": "755",
+        "year": "2022",
+        "quantity": "10",
+        "imageUrl": "/images/product/large-size/5.jpg",
+        "rating": "5",
+        "description": "The iBooster can be used with all drivetrain configurations and is particularly suited to hybrid and electric vehicles. The generation 2 of the iBooster is characterized by significantly reduced weight.",
+        "_id": "36b52dce-1d28-4031-8e33-4b0e9d246429"
+    },
+    "0af8e76f-3e49-4186-a046-48407933b7e9": {
+        "title": "Power Sport Kit Series",
+        "category": "Braking System",
+        "brand": "Power Sport",
+        "price": "398",
+        "year": "2023",
+        "quantity": "50",
+        "imageUrl": "/images/product/large-size/6.jpg",
+        "rating": "4",
+        "description": "POWERSPORT Series Brake Rotors provide superior braking performance in any driving condition. Perfect for the daily driver or aggressive street driver. Ready to be installed with no modifications required. Upgrade your safety by upgrading your brakes!",
+        "_id": "0af8e76f-3e49-4186-a046-48407933b7e9"
+    },
+    "b75625e4-2a79-4c2b-a2f1-f2c5d9229473": {
+        "title": "VSRacing Gen1 Billet 7875",
+        "category": "Engine and Drivetrain",
+        "brand": "Power Sport",
+        "price": "555",
+        "year": "2021",
+        "quantity": "50",
+        "imageUrl": "/images/product/large-size/7.jpg",
+        "rating": "3",
+        "description": "This turbo is being discontinued by VSRacing. Please check the Next Gen version which is a newer design of this turbo VSR Billet 7875 Gen1 T4 Turbo. Most popular unit for sub 800 hp Setups;Compresor: 78mm 11 Blade Billet Compressor Wheel extended tip for high flow Turbine: GT42 75mm/82 Exducer/Inducer Downpipe: 3″; Compressor Outlet 2.5″ Turbine Housing : .96ar T4 open",
+        "_id": "b75625e4-2a79-4c2b-a2f1-f2c5d9229473"
+    }
+}

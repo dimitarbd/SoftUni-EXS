@@ -1,0 +1,26 @@
+{% if section.settings.ticker_direct == '1' %}
+  {%- assign direct = 'rtl' -%} 
+{% else %}
+  {%- assign direct = 'ltr' -%}
+{% endif %}
+<div class="section-{{ section.id }}-padding ticker-bar {{ direct }}" role="region" aria-label="ticker">
+
+			
+</div>
+
+
+
+{% schema %}
+{
+  "name": "ZMZ Ticker",
+  "class": "section section_ticker",
+  "settings": [
+	{
+      "type": "header",
+      "content": "Upgrade your store with Vendy Pro OS 2.0 theme"
+    }
+  ]
+}
+{% endschema %}
+
+

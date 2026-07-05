@@ -1,0 +1,19 @@
+
+ {% render 'card-product',
+   card_product: product,
+   card_design: 'design-1',
+   media_aspect_ratio: 'portrait', 
+   show_rating: true,
+   show_quick_add: true,
+   show_compare: true, 
+   show_wishlist: true,
+   custom_class: "grid__item",
+   section_id: section.id 
+ %} 
+
+
+{% schema %} 
+  {
+    "templates": ["product"]
+  }
+{% endschema %}

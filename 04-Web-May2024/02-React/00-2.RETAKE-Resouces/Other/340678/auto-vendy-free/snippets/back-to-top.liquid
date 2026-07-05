@@ -1,0 +1,61 @@
+
+{%- assign trigger_verticle_offset = 800 -%} 
+{%- assign trigger_position_from_bottom = '0.9em' -%}
+
+<a href="#" id="backToTop" title="Back to the top" class="back-to-top hidden">
+	{% render 'icon-arrow' %}
+</a>
+
+<style>
+	.back-to-top {
+	    position: fixed;
+	    bottom: {{ trigger_position_from_bottom }};
+	    right: 0px;
+	    text-decoration: none;
+	    color: var(--color-background); 
+	    background-color: rgba(var(--color-foreground), .7);
+	    font-size: 1.4rem;
+	    padding: 0.3em; 
+	    border-top-left-radius: 3px;
+	    border-bottom-left-radius: 3px;
+	    z-index: 60000;
+	}
+	.back-to-top .icon {
+	    vertical-align: middle;
+		transform: rotate(-90deg);
+		 color: #fff;  
+	}
+	
+	.back-to-top:hover {
+	   background-color: rgba(var(--color-foreground), 1);
+	}
+	
+</style>
+
+<script>
+	(function() {
+        var goTopBtn = document.querySelector('#backToTop');
+
+	    function trackScroll() {
+	        var scrolled = window.pageYOffset;
+	        var coords = {{ trigger_verticle_offset }};
+
+            if (scrolled > coords) {
+                goTopBtn.classList.remove('hidden')
+            }
+            if (scrolled < coords) {
+                goTopBtn.classList.add('hidden') 
+            }
+	    }
+
+        function backToTop() {
+            if (window.pageYOffset > 0) {
+              window.scrollBy({ top: -30, behaviour: 'smooth'});
+                setTimeout(backToTop, 5000);
+            }
+        }
+
+        window.addEventListener('scroll', trackScroll);
+        goTopBtn.addEventListener('click', backToTop);
+	})();
+</script>

@@ -1,0 +1,112 @@
+
+{%- style -%}
+
+ .section-style-{{ section.id }}{  
+	    position: relative;  
+  }
+
+  {% if section.settings.box_type == 'box' %}
+    .section-style-{{ section.id }}{ 
+      --page-width: {{ section.settings.section_width | divided_by: 10 }}rem; 
+    }
+   {% elsif section.settings.box_type == 'fluid' %}
+    .section-style-{{ section.id }}{
+      --page-width: {{ section.settings.section_fluid_width | divided_by: 10 }}rem;
+    }
+    {% else %}
+    .section-style-{{ section.id }}{
+      --page-width: 100%; 
+    }
+  {% endif %}
+
+  .section-style-{{ section.id }}{
+      --grid-desktop-horizontal-spacing: {{ section.settings.spacing_grid_horizontal }}px;
+      --grid-mobile-horizontal-spacing: {{ section.settings.spacing_grid_horizontal | divided_by: 4 }}px;
+    }  
+
+  .section-style-{{ section.id }}{
+    padding-left: {{ sections.settings.section_inset | times: 0.75 | round: 0 }}%;
+    padding-right: {{ sections.settings.section_inset | times: 0.75 | round: 0 }}%;
+    }
+
+    #shopify-section-{{ section.id }} .container--wrapper{
+    padding:{{ section.settings.mobileContainerPadding }};
+    }
+  
+    #shopify-section-{{ section.id }} .description h1,
+    #shopify-section-{{ section.id }} .description h2,
+    #shopify-section-{{ section.id }} .description h3,
+    #shopify-section-{{ section.id }} .description h4,
+    #shopify-section-{{ section.id }} .description h5,
+    #shopify-section-{{ section.id }} .description h6{
+    margin: 1rem 0;
+    color: inherit;
+    }
+
+    @media screen and (min-width: 750px) {
+    #shopify-section-{{ section.id }} .description h1{
+    font-size: {{ section.settings.section_description_scale | times: 1.0 | divided_by: 100 | times: 4.8 | append: "rem" }};
+    }
+    #shopify-section-{{ section.id }} .description h2{
+    font-size: {{ section.settings.section_description_scale | times: 1.0 | divided_by: 100 | times: 3.6 | append: "rem" }};
+    }
+    #shopify-section-{{ section.id }} .description h3{
+    font-size: {{ section.settings.section_description_scale | times: 1.0 | divided_by: 100 | times: 3 | append: "rem" }};
+    }
+    #shopify-section-{{ section.id }} .description h4{
+    font-size: {{ section.settings.section_description_scale | times: 1.0 | divided_by: 100 | times: 2.4 | append: "rem" }};
+    }
+    #shopify-section-{{ section.id }} .description h5{
+    font-size: {{ section.settings.section_description_scale | times: 1.0 | divided_by: 100 | times: 2 | append: "rem" }};
+    }
+    #shopify-section-{{ section.id }} .description h6{
+    font-size: {{ section.settings.section_description_scale | times: 1.0 | divided_by: 100 | times: 1.6 | append: "rem" }};
+    }
+    #shopify-section-{{ section.id }} .container--wrapper{
+    padding:{{ section.settings.desktopContainerPadding }};
+    }
+    .section-style-{{ section.id }}{
+      padding-left: {{ sections.settings.section_inset }}%;
+      padding-right: {{ sections.settings.section_inset }}%;
+    }
+    #shopify-section-{{ section.id }} .section--wrapper{
+      padding: {{- section.settings.desktop_section_padding -}};
+    }
+    } 
+
+
+    .section-style-{{ section.id }}{
+    --font-heading-scale: {{ section.settings.section_heading_scale | times: 1.0 | divided_by: settings.body_scale }};
+    }
+
+    .section-style-{{ section.id }} .title-wrapper-with-link{
+    align-items: {{ section.settings.heading_alignment }};
+    word-break: break-word;
+    text-align: {{ section.settings.heading_alignment }};
+    } 
+
+ .section-style-{{ section.id }} .subtitle{
+    line-height: {{ section.settings.section_subtitle_scale | times: 1.0 | divided_by: 100 | times: 1.8 | append: "rem" }};
+    font-size: {{ section.settings.section_subtitle_scale | times: 1.0 | divided_by: 100 | times: 1.8 | append: "rem" }};
+    }
+    .section-style-{{ section.id }} .description{
+    line-height: {{ section.settings.section_description_scale | times: 1.0 | divided_by: 100 | times: 1.8 | append: "rem" }};
+    font-size: {{ section.settings.section_description_scale | times: 1.0 | divided_by: 100 | times: 1.8 | append: "rem" }};
+    }
+
+    .section-style-{{ section.id }}.color-custom_color.gradient{
+    background: {{ section.settings.bg_color | color_modify: 'alpha', section.settings.bg_color_opacity }};
+    }
+
+    .section-style-{{ section.id }} .color-section_custom_color.gradient{
+    background: {{ section.settings.bg_section_color }};
+    }
+
+
+    @media screen and (max-width: 749px){
+    #shopify-section-{{ section.id }} .section--wrapper{
+    padding: {{- section.settings.mobile_section_padding -}};
+    }
+    } 
+
+{%- endstyle -%}

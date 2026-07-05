@@ -1,0 +1,1 @@
+Hello, piping streams!
