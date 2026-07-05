@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background: #eee;
+}
+
+body>* {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    max-width: 20ch;
+    gap: 0.5em;
+}
+
+label {
+    white-space: nowrap;
+}
+
+input {
+    width: 100%;
+}

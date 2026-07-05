@@ -1,0 +1,223 @@
+@media (width <=600px) {
+
+    html {
+        font-size: 16px;
+    }
+
+    .home-navbar {
+        flex-direction: row !important;
+        padding: 10px 14px;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap !important;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .home-links-container {
+        flex-direction: row !important;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 1;
+        flex-wrap: nowrap !important;
+        overflow: hidden;
+        justify-content: space-between;        
+    }
+
+    .home-link,
+    .home-link1,
+    .home-link2,
+    .home-link3 {
+        margin-right: 8px !important;
+        padding: 2px 4px !important;
+        font-size: 18px !important;
+        white-space: nowrap !important;
+        flex-shrink: 1;
+        min-width: 0;
+    }
+
+    .home-link3 {
+        margin-right: 0 !important;
+    }
+
+    .home-cta-container {
+        width: 30%;
+        flex-shrink: 1;
+        margin-right: 10px;
+    }
+
+    .home-cta-btn {
+        padding: 6px 12px !important;
+        font-size: 16px !important;
+        white-space: wrap;
+    }
+
+    .home-hero {
+        flex-direction: column;
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .home-image1 {
+        padding-top: 50px;
+        width: 90%;
+        height: auto;
+        order: -1;
+        margin-bottom: 24px;
+    }
+
+    .home-hero-text-container {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 0;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .home-heading {
+        font-size: 42px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .home-text02 {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .home-cta-btn2 {
+        padding: 16px 10px;
+        font-size: 16px;
+        align-self: center;
+        
+    }
+
+    .home-features {
+        height: auto;
+        padding: 20px;
+    }
+
+    .home-heading-container {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .home-text03 {
+        font-size: 42px;
+        margin-bottom: 16px;
+    }
+
+    .home-text04 {
+        font-size: 16px;
+        line-height: 1.5;
+        width: 90%;
+    }
+
+    .home-cards-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .home-feature-card,
+    .home-feature-card1,
+    .home-feature-card2 {
+        width: 100%;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    
+    .home-image2,
+    .home-image3,
+    .home-image4 {
+        width: 100%;
+        max-width: 300px;
+        max-height: 220px;
+        height: auto;
+        margin-bottom: 16px;
+    }
+
+    .home-heading1,
+    .home-heading2,
+    .home-heading3 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .home-text05,
+    .home-text06,
+    .home-text07 {
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .home-stats {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+        gap: 24px;
+    }
+
+    .home-stat,
+    .home-stat1,
+    .home-stat2,
+    .home-stat3 {
+        padding: 0;
+    }
+
+    .home-text08,
+    .home-text13,
+    .home-text17,
+    .home-text22 {
+        font-size: 3rem;
+    }
+
+    .home-text11,
+    .home-text15,
+    .home-text20,
+    .home-text24 {
+        font-size: 1rem;
+        margin-top: 8px;
+    }
+
+    .home-text12,
+    .home-text16,
+    .home-text21,
+    .home-text25 {
+        font-size: 0.8rem;
+        margin-top: 8px;
+        line-height: 1.4;
+    }
+
+    .Section-Heading {
+        font-size: 42px !important;
+        line-height: 1.3;
+    }
+
+    .Card-Heading {
+        font-size: 20px;
+    }
+
+    .Anchor {
+        font-size: 16px;
+    }
+
+    .home-container {
+        overflow-x: hidden;
+    }
+
+    button {
+        min-height: 44px;
+        cursor: pointer;
+    }
+
+    .home-navbar-container {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+}

@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid green;
+    padding: 2em;
+}
+
+.section {
+    padding: 2em;
+}
+
+.section .wrapper {
+    padding: 2em;
+    max-width: 66ch;
+    margin: 0 auto; 
+}
+
+.section-banner {
+    background: lightgray;
+}
+
+.section-header, 
+.section-footer {
+    background: lightcyan;
+}

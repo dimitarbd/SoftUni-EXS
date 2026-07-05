@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+@media all {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 2em;
+        font: 14px/1.5 Lato, sans-serif;
+    }
+
+    p {
+        padding-bottom: 1.5em;
+    }
+
+    html {
+        font: 14px/1.5 Lato, sans-serif
+    }
+
+    h2 {
+        margin-top: 0.5em;
+    }
+
+    pre {
+        background: #eee;
+        padding: 0.2em 0.4em;
+        border-radius: 0.3em;
+        color: #333;
+    }
+
+    body::before {
+        padding: 1em 1.4em;
+        color: #fff;
+        margin-bottom: 1.5em;
+        border-radius: 0.3em;
+    }
+}
+
+@media (min-width: 30em) and (orientation: landscape) {
+    body::before {
+        display: block;
+        content: 'The viewport width is larger than 30em and the orientation is landscape.';
+        background: #369;
+    }
+}
+
+@media (min-height: 680px), screen and (orientation: portrait) {
+    body::before {
+        display: block;
+        content: 'The viewport height is larger than 680px or the media type is screen and the orientation is portrait.';
+        background: #369;
+
+    }
+}
+
+@media not (min-width: 600px) {
+    body::before {
+        display: block;
+        content: 'The view port is NOT larger than 600px';
+    }
+}

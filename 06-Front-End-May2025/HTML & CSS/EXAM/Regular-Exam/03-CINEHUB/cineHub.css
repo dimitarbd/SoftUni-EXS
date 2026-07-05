@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: auto;
+    background-color: #000000;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.page-wrapper {
+    max-width: 2830px;
+    max-height: 3820px;
+    width: 100%;
+    background-color: #0a0a0a;
+    position: relative;
+    overflow: hidden;
+}
+
+.container,
+.hero,
+.hero-content {
+    max-width: 2830px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.header {
+    width: 100%;
+    background-color: #111111;
+    padding: 30px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.nav {
+    display: flex;
+    gap: 60px;
+    font-size: 28px;
+}
+
+.nav-link {
+    color: #cccccc;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+main {
+    margin-top: 80px;
+    background-color: #0B0B0B;
+}
+
+.hero-wrapper {
+    padding: 0 40px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.hero {
+    width: 100%;
+    height: 1180px;
+    background: linear-gradient(135deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('img/movies/city-under-the-fire-bg.webp');
+    background-size: cover;
+    background-position: top;
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-background {
+    display: none;
+}
+
+.hero-content {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-text {
+    max-width: 1000px;
+}
+
+.hero h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 66px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.hero p {
+    font-size: 30px;
+    color: #cccccc;
+    margin-bottom: 40px;
+}
+
+.streaming-label {
+    color: #ff4444;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.movie-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    margin: 15px 0 20px 0;
+}
+
+.genres {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.genre {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 35px;
+    color: #ffd700;
+}
+
+.rating i {
+    font-size: 16px;
+}
+
+.rating span {
+    color: #cccccc;
+    font-size: 20px;
+}
+
+.watch-btn {
+    background-color: #E50914;
+    color: #ffffff;
+    border: none;
+    padding: 16px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.watch-btn:hover {
+    background-color: #e63939;
+}
+
+.continue-watching {
+    padding: 80px 0;
+}
+
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.continue-item {
+    align-items: center;
+    gap: 30px;
+    max-width: 400px;
+}
+
+.continue-item img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.continue-info {
+    width: 100%;
+    align-items: center;
+}
+
+.continue-info h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 6px;
+    background-color: #333333;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progress {
+    width: 40%;
+    height: 100%;
+    background-color: #ff4444;
+}
+
+.top-picks {
+    padding: 80px 0;
+    background-color: #0a0a0a;
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+
+.movie-card {
+    text-align: center;
+}
+
+.movie-card img {
+    width: 100%;
+    max-height: 330px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+}
+
+.movie-card img:hover {
+    transform: scale(1.05);
+}
+
+.movie-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.coming-soon {
+}
+
+.coming-soon-item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+    background-color: #1A1A1A;
+    border-radius: 12px;
+}
+
+.coming-soon-item img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.coming-soon-info h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.coming-soon-info p {
+    color: #cccccc;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.reminder-btn {
+    background-color: #E50914;
+    color: #ffffff;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 6px;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reminder-btn:hover {
+    background-color: #e63939;
+}
+
+.browse-genre {
+    padding: 80px 0;
+    margin: 0 30px;
+    background-color: #0a0a0a;
+    border-bottom: 0.5px solid #ffffff;
+}
+
+.genres-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    text-align: center;
+}
+
+.genre-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.genre-item:hover {
+    transform: translateY(-5px);
+}
+
+.genre-item img {
+    width: 84px;
+    height: 84px;
+    object-fit: contain;
+}
+
+.genre-item span {
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.register {
+    padding: 100px 0;
+    background-color: #111111;
+    text-align: center;
+}
+
+.register h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.register p {
+    font-size: 28px;
+    font-weight: 700;
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+
+.register-btn {
+    background-color: #E50914;
+    color: #ffffff;
+    border: none;
+    padding: 22px 55px;
+    border-radius: 6px;
+    font-size: 32px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+    background-color: #e63939;
+}
+
+

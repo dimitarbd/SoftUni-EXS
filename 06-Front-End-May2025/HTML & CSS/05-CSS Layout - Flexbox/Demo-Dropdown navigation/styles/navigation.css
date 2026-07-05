@@ -1,0 +1,64 @@
+.main-nav {
+    /* display: flex;
+    gap: 1em; */
+}
+
+.main-nav>ul {
+    display: flex;
+    gap: 0.5em;
+}
+
+.main-nav li,
+.main-nav a {
+    display: block;
+    white-space: nowrap;
+}
+
+.main-nav li {
+    position: relative;
+}
+
+.main-nav a {
+    background: #eee;
+    border-radius: 0.3em;
+    padding: 0.5em 0.8em;
+}
+
+.main-nav li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+    gap: 0.3em;
+    padding-top: 5px;
+}
+
+.main-nav li ul li ul {
+    top: 0;
+    left: 100%;
+    padding: 0 0 0 5px;
+}
+
+.main-nav li:hover > ul {
+    display: flex;
+}
+
+.main-nav li:hover > a,
+.main-nav a:hover {
+    background: #369;
+    color: #fff;
+}
+
+.main-nav a:hover {
+    background: #369;
+    color: #fff;
+}
+
+.main-nav a:active {
+    background: rgb (0, 0, 0, 0.2);
+}
+
+.main-nav a:visited {
+    background: rgb (0, 0, 0, 0.05);
+}

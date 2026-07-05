@@ -1,0 +1,218 @@
+/* Mobile Responsive Styles - width <= 600px */
+@media (max-width: 600px) {
+
+    /* Body and container adjustments */
+    body {
+        font-size: 16px;
+    }
+
+    .home-container {
+        width: 100%;
+        padding: 0;
+    }
+
+    /* Navigation adjustments */
+    .home-navbar {
+        display: flex;
+        flex-direction: row;
+        padding: 1em 12px;
+        justify-content: space-between;
+    }
+
+    .home-links-container {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 16px;
+        width: 350px;
+        padding-left: 4em;
+    }
+
+    .home-link,
+    .home-link1,
+    .home-link2,
+    .home-link3 {
+        margin-right: 0;
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+
+    .home-cta-container {
+        width: 40%;
+        justify-content: right;
+        padding-right: 2em;
+    }
+
+    .home-cta-btn {
+        padding: 5px 14px;
+        width: auto;
+    }
+
+    .Anchor button Anchor {
+        font-size: 8px;
+    }
+
+    /* Hero section adjustments */
+    .home-hero {
+        flex-direction: column-reverse;
+        padding: 20px 16px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .home-hero-text-container {
+        width: 100%;
+        margin-left: 0;
+        align-items: center;
+        margin-top: 24px;
+    }
+
+    .home-heading {
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .home-text02 {
+        width: 470px;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+
+    .home-cta-btn2 {
+        padding: 14px 32px;
+        font-size: 12px;
+        align-self: center;
+        width: auto;
+        max-width: 250px;
+    }
+
+    .home-image1 {
+        width: 100%;
+        max-width: 550px;
+        height: auto;
+    }
+
+    /* Features section adjustments */
+    .home-features {
+        height: auto;
+        padding: 32px 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .home-heading-container {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .home-text03 {
+        font-size: 3em;
+    }
+
+    .home-text04 {
+        width: 500px;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* Cards container - stack vertically */
+    .home-cards-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .home-feature-card,
+    .home-feature-card1,
+    .home-feature-card2 {
+        width: 500px;
+        max-width: 350px;
+        padding: 20px 16px;
+        align-self: center;
+    }
+
+    .home-image2,
+    .home-image3,
+    .home-image4 {
+        width: 100%;
+        max-width: 400px;
+        height: 250px;
+        margin-bottom: 16px;
+    }
+
+    .home-heading1,
+    .home-heading2,
+    .home-heading3 {
+        font-size: 20px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    .home-text05,
+    .home-text06,
+    .home-text07 {
+        width: 470px;
+        font-size: 1em;
+        line-height: 1.6;
+    }
+
+    /* Stats section adjustments */
+    .home-stats {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 32px 16px;
+    }
+
+    .home-stat,
+    .home-stat1,
+    .home-stat2,
+    .home-stat3 {
+        text-align: center;
+    }
+
+    .home-text08,
+    .home-text13,
+    .home-text17,
+    .home-text22 {
+        font-size: 2.5rem;
+    }
+
+    .home-text11,
+    .home-text15,
+    .home-text20,
+    .home-text24 {
+        font-size: 1rem;
+        margin-top: 8px;
+    }
+
+    .home-text12,
+    .home-text16,
+    .home-text21,
+    .home-text25 {
+        font-size: 0.8rem;
+        margin-top: 8px;
+    }
+
+    /* Typography adjustments */
+    .Section-Heading {
+        font-size: 45px;
+    }
+
+    .Card-Heading {
+        font-size: 20px;
+    }
+
+    .Anchor {
+        font-size: 16px;
+    }
+
+    /* General spacing adjustments */
+    .home-navbar-container {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+}

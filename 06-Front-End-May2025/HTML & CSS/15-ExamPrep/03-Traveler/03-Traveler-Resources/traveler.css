@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    background-image: url('images/poster.jpg');
+    background-position: center -10vw;
+    background-size: contain;
+    font: 18px/1.5 Karla, sans-serif;
+
+    &::before {
+        display: block;
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgb(0, 0, 0, 0.3);
+        z-index: -1;
+    }
+}
+
+body>* {
+    width: 100%;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cormorant Infant', serif;
+}
+
+.site-title {
+    a {
+        display: block;
+        text-indent: -100vw;
+        background: url('images/logo.webp');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+        width: 6em;
+        aspect-ratio: 3/1;
+    }
+}
+
+.section {
+
+    &.bgrd-light {
+        background-color: #F8F0E9;
+        color: #000;
+
+    }
+
+    &.bgrd-dark {
+        background-color: #E14747;
+        color: #fff;
+
+    }
+
+    .inner {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 2em;
+    }
+
+    &.section-header .inner,
+    &.section-footer .inner {
+        max-width: 1720px;
+    }
+
+    &.section-header {
+        .inner {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 2em;
+
+            li,
+            a {
+                display: block;
+            }
+
+            a {
+                padding: 0.5em;
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+
+    &.section-banner {
+        .inner {
+            padding: 14em 2em 12em;
+            text-align: center;
+            color: #fff;
+
+            h2 {
+                font-size: 5em;
+                margin: 3rem 0;
+            }
+
+            p {
+                max-width: 60ch;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    &.section-testimonial {
+        .inner {
+            blockquote {
+                font-size: 3.5em;
+                font-weight: bold;
+                line-height: 0.9;
+                font-style: italic;
+                font-family: 'Cormorant Infant', serif;
+                padding-top: 3rem;
+                padding-bottom: 4rem;
+                padding-right: 5rem;
+            }
+        }
+    }
+
+    &.section-support {
+        .inner {
+            text-align: center;
+            padding: 3em 0;
+        }
+
+        h2 {
+            font-family: Karla, sans-serif;
+            padding-bottom: 1em;
+        }
+
+        p {
+            max-width: 30ch;
+            margin: 0 auto
+        }
+
+        ;
+    }
+
+    &.section-featured {
+        .inner {
+            max-width: 600px;
+            padding-block: 3em;
+        }
+
+        img {
+            margin-bottom: 2em;
+        }
+
+        h2 {
+            font-size: 3em;
+            line-height: 1;
+            text-align: center;
+            padding-top: 0.5em;
+            padding-bottom: 1em;
+        }
+
+        .button {
+            display: block;
+            width: fit-content;
+            border: 1px solid #000;
+            background: #fff;
+            border-radius: 0.3em;
+            padding: 0.5em 1em;
+            color: #000;
+            text-decoration: none;
+
+
+            &+.button {
+                margin-top: 2em;
+                margin-inline: auto;
+            }
+        }
+    }
+
+    &.section-guide {
+        .inner {
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 3em;
+            margin: 2rem 0 4rem;
+        }
+
+        p {
+            max-width: 80ch;
+            margin: 2rem auto 4rem;
+        }
+
+        .button {
+            display: block;
+            text-decoration: none;
+            color: #000;
+            background: yellow;
+            width: fit-content;
+            margin: 0 auto;
+            padding: 0.5em 1em;
+            border-radius: 2em;
+            margin-bottom: 2dvb;
+        }
+    }
+
+    &.section-footer {
+        background-color: #352B2A;
+        color: #fff;
+
+        .inner {
+
+            .site-title {
+                margin-bottom: 2em;
+            }
+
+            p:not([class]) {
+                max-width: 48ch;
+                margin-bottom: 1.5em;
+            }
+
+            p:last-child { 
+                opacity: 0.3;
+            }
+        }
+    }
+}

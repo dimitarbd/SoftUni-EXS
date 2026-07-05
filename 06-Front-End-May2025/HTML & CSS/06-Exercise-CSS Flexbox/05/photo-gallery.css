@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+body {
+    background: #eee;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.site {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 0 2em;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.gallery li {
+    flex: 1 1 30ch;
+    overflow: hidden;
+    display: flex;
+    border: 0.3em solid #222;
+    border-radius: 0.2em;
+    box-shadow: 0 0 1em 0 rgb (0, 0, 0, 0.1);
+    background: #fff;
+    padding: 1em;
+}
+
+.gallery a {
+    display: flex;
+    flex-direction: column;
+    color: #AAA;
+    text-decoration: none;
+    justify-content: center;
+    line-height: 1;
+    position: relative;
+    padding-bottom: 2em;
+}
+
+.gallery img {
+    box-shadow: 0 0 0.5em 0 rgb(0, 0, 0, 0.1);
+    border-radius: 0.2em;
+}
+
+.gallery a .title {
+    font-style: italic;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1.08em;
+    font-style: italic;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.gallery:before,
+.gallery::after {
+    display: block;
+    flex: 1 1 25ch;
+    content: '';
+    order: 9999;
+}

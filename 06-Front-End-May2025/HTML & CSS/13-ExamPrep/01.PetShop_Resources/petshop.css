@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+}
+
+body>* {
+    width: 100%;
+}
+
+.section {
+    max-width: 1800px;
+    max-height: 500px;
+    margin: 0 auto;
+}
+
+.inner {
+    display: flex;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    min-height: 500px;
+    align-items: flex-end;
+}
+
+.media {
+    flex: 0.9;
+    max-width: 45%;
+    display: flex;
+    align-items: flex-end;
+
+    img {
+        max-width: 610px;
+        height: 550px;
+        object-fit: cover;
+        display: block;
+        margin: 30px 0 30px 100px;
+    }
+}
+
+.content {
+    flex: 1.1;
+    padding: 30px 100px 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-heading {
+    background: #F3F3F3;
+    padding: 40px 20px 20px 20px;
+    margin-bottom: 25px;
+    border-left: 5px solid #7AB730;
+}
+
+.content-heading h6 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #7AB730;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    background: #F3F3F3;
+}
+
+.content-heading h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #2c3e50;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.content h4 {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.content-body {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background: #F3F3F3;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-radius: 1px;
+    text-align: center;
+    transition: all 0.3s ease;
+    flex: 1;
+}
+
+.button.primary {
+    background-color: #7CB342;
+    color: white;
+}
+
+.button.primary:hover {
+    background-color: #689F38;
+}
+
+.button.secondary {
+    color: #7CB342;
+    background: transparent;
+    text-align: center;
+    padding: 12px 20px 10px 20px;
+}
+
+.button.secondary:hover {
+    color: #689F38;
+    border-bottom-color: #689F38;
+}
+
+.content-body p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-top: 10px;
+    padding: 0 20px;
+}

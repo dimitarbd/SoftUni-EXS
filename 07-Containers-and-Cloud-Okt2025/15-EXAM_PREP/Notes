@@ -1,0 +1,18 @@
+Account name: readinglistdimitarbd-server
+Database name: readinglistdimitarbd-database
+
+
+
+
+
+Docker:
+
+docker build -t dimitarbd/goals-backend .
+
+
+docker-compose.yml:
+
+docker run -d --network goals -v data:/data/db --name mongodb -e MONGO_INITDB_ROOT_USERNAME=mongoadmin -e MONGO_INITDB_ROOT_PASSWORD=secret mongo
+docker run -d --network goals -v logs:/logs --name backend -p 80:80 dimitarbd/goals-backend
+docker run -d --network goals --name fronend -p 3000:3000 dimitarbd/goals-frontend
+

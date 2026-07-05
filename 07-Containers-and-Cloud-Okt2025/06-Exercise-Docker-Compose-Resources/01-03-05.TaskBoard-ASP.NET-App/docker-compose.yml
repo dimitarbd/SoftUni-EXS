@@ -1,0 +1,24 @@
+services:
+  taskboard:
+    container_name: taskboard
+    networks:
+      - taskboard_network
+    ports:
+      - 5000:80
+    image: dimosoftuni/taskboard
+  server:
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=yourStrongPassword12#
+    ports:
+      - 1433:1433
+    volumes:
+      - sqldata:/var/opt/mssql
+    networks:
+      - taskboard_network
+    container_name: sqlserver
+    image: mcr.microsoft.com/mssql/server
+networks:
+  taskboard_network:
+volumes:
+  sqldata:

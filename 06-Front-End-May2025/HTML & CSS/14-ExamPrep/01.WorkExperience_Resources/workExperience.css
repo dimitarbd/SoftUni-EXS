@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+
+body {
+    font-family: 'Margarine', cursive;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #eee;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 15px/1.5 'Margarine', cursive;
+    background-color: #FFF0E4;
+}
+
+body>* {
+    width: 100%;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section .inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1400px;
+    height: 600px;
+    gap: 20px;
+}
+
+hr {
+    margin: 1em 0;
+    border-top: 1px solid #e6e4e4;
+}
+
+.section .inner .left {
+    width: 33%;
+    height: 100%;
+    background-color: #FFF0E4;
+    box-shadow: 
+    -0.5em -0.5em 1em 0 rgba(0, 0, 0, 0.1),
+    0 1em 2em 0.3em rgba(0, 0, 0, 0.5);    
+    padding: 1em;
+
+    h1 {
+        font-size: 2em;
+        font-weight: bold;
+        text-align: left;
+        padding-bottom: 1em;
+    }
+
+    p {
+        font-size: 1em;
+        font-weight: bold;
+        text-align: left;
+        padding: 0.7em 0;
+        letter-spacing: 0.1em;
+
+        i {
+            font-size: 1em;
+            font-weight: bold;
+            text-align: left;
+            padding-right: 1em;
+            color: #2991E6;
+        }
+    }
+
+    &.container {
+        padding: 1em;
+    }
+
+
+    .skills {
+        background-color: #2991E6;
+        color: #fff;
+        text-align: center;
+        padding: 0 0;
+        border-radius: 16px;
+        font-size: 0.8em;
+    }
+}
+
+.section .inner .right {
+    width: 67%;
+    height: 100%;
+    background-color: #FFF0E4;
+    box-shadow: 
+    -0.5em -0.5em 1em 0 rgba(0, 0, 0, 0.1),
+    0 1em 2em 0.3em rgba(0, 0, 0, 0.5);    
+
+    h1 {
+        font-size: 2em;
+        font-weight: 500;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    .work {
+        padding: 0 1em;
+    }
+
+    .work h3 {
+        font-size: 1.2em;
+        font-weight: bold;
+        text-align: left;
+        padding: 0 0 1em 0;
+        color: #66605B;
+    }
+
+    .work h4 {
+        font-size: 1.1em;
+        font-weight: bold;
+        text-align: left;
+        padding: 0 0 1em 0;
+        color: #66605B;
+        color: #2991E6;
+    }
+
+   
+}

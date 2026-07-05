@@ -1,0 +1,29 @@
+p.highlighted {
+    color: rgb(92, 92, 228);
+}
+
+div#special {
+    background: orange;
+    box-shadow: 0.1em 0.1em 0.5em 0.1em rgb(0, 0, 0, 0.3)
+}
+
+details[open] summary {
+    font-size: 1.2em;
+    color: #090;
+}
+
+a {
+    color: green;
+}
+
+a[href^="/"] {
+    color: pink;
+}
+
+a[href^="https://softuni.bg/"] {
+    color: orange  ;
+}
+
+p.someclass1.someclass2.someclass3 {
+    color: blue;
+}

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 3em;
+}
+
+.site-header,
+.site-footer,
+.site-content .section {
+    padding: 2em 3em;
+    border: 1px solid #020000
+}
+
+.site-footer,
+.site-content .section {
+    margin-top: 0.5em;
+}
+
+.site-title {
+    font-size: 1.4em;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #369;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #000;
+}
+
+a:visited {
+    color: purple;
+}

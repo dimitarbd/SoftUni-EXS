@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body, input, select, textarea, option {
+    font: inherit;
+}
+
+body {
+    min-height: 100vh;
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+}
+
+body > * {
+    width: 100%;
+}
+
+form {
+    max-width: 500px;
+    background: #fff;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+    padding: 2em;
+}
+
+fieldset {
+    border: none;
+
+    legend {
+        font-size: 1.6em;
+        font-weight: bold;
+
+        &::after {
+            display: block;
+            content: '';
+            background: #ccc;
+            width: 100%;
+            height: 2px;
+            margin: 1em 0;
+        }
+    }
+}
+
+.field {
+    padding-bottom: 1.5em;
+
+    & > label {
+        font-weight: bold;
+        display: block;
+    }
+    
+    input[type="text"],
+    input[type="password"],
+    textarea {
+        border: 2px solid #ccc;
+        padding: 0.5em 0.8em;
+        border-radius: 0.3em;
+        display: block;
+        width: 100%;
+        outline: none;
+
+        &:focus {
+            border-color: orange;
+        }
+    }
+
+    &:has(:required) > label {
+        
+        &::after {
+            display: inline-block;
+            content: '*';
+            margin-left: 0.3em;
+            color: #c00;
+        }
+    }
+
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding: 0.5em 0.8em;
+    background: orange;
+    border-radius: 0.3em;
+    color: #fff;
+    outline: none;
+
+    &:focus {
+        background: darkorange;
+    }
+}
+
+input, button {
+    &:focus-visible {
+        outline: 2px solid orange;
+        outline-offset: 2px;
+    }
+}

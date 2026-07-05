@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-test</title>
+    <link rel="stylesheet" href="../../styles/site.css">
+</head>
+
+<body>
+    <div class="section">
+        <div class="inner">
+
+            <header>
+                <h2>Login</h2>
+            </header>
+
+            <form action="#">
+
+                <fieldset>
+                    <legend>Login</legend>
+
+                    <div class="field">
+                        <label for="login-email">Email</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="login-email" id="login-email" required>
+                        </div>
+                        <p class="info">Valid email address</p>
+                    </div>
+
+                    <div class="field">
+                        <label for="login-password">Password</label>
+                        <div class="input-wrapper">
+                            <input type="password" name="login-password" id="login-password" 
+                                required>
+                        </div>
+                        <p class="info">Minimum 6 characters ...</p>
+                    </div>
+
+                    <div class="field">
+                        <label for="login-message">Message</label>
+                        <div class="input-wrapper">
+                            <textarea name="login-message" id="login-message"></textarea>
+                        </div>
+                        <p class="info">Minimum 6 characters ...</p>
+                    </div>
+
+                    <div class="field">
+                        <label>Make the correct choice</label>
+                        <div class="input-wrapper">
+                            <ul>
+                                <input type="radio" name="login-choice" value="1" id="login-choice-1"><label
+                                    for="login-choice-1">Choice option 1</label>
+                                <input type="radio" name="login-choice" value="2" id="login-choice-2"><label
+                                    for="login-choice-2">Choice option 2</label>
+                                <input type="radio" name="login-choice" value="3" id="login-choice-3"><label
+                                    for="login-choice-3">Choice option 3</label>
+                            </ul>
+                        </div>
+                        <p class="info">Explain the choice</p>
+                    </div>
+
+                    <div class="field custom">
+                        <label>Make the correct choice</label>
+                        <div class="input-wrapper">
+                            <ul>
+                                <input type="radio" name="login-choices" value="1" id="login-choices-1"><label
+                                    for="login-choices-1">Choice option 1</label>
+                                <input type="radio" name="login-choices" value="2" id="login-choices-2"><label
+                                    for="login-choices-2">Choice option 2</label>
+                                <input type="radio" name="login-choices" value="3" id="login-choices-3"><label
+                                    for="login-choices-3">Choice option 3</label>
+                            </ul>
+                        </div>
+                        <p class="info">Explain the choice</p>
+                    </div>
+
+                    <div class="field custom">
+                        <label>Make the correct choice</label>
+                        <div class="input-wrapper">
+                            <ul>
+                                <input type="checkbox" name="login-mchoices-1" id="login-mchoices-1"><label
+                                    for="login-mchoices-1">Choice option 1</label>
+                                <input type="checkbox" name="login-mchoices-2" id="login-mchoices-2"><label
+                                    for="login-mchoices-2">Choice option 2</label>
+                                <input type="checkbox" name="login-mchoices-3" id="login-mchoices-3"><label
+                                    for="login-mchoices-3">Choice option 3</label>
+                            </ul>
+                        </div>
+                        <p class="info">Explain the choice</p>
+                    </div>
+
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Floating labels</legend>
+
+                    <div class="field floating-label">
+                        <label for="login-email">Email</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="login-email" id="login-email" required>
+                        </div>
+                        <p class="info">Valid email address</p>
+                    </div>
+
+                    <div class="field floating-label">
+                        <label for="login-password">Password</label>
+                        <div class="input-wrapper">
+                            <input type="password" name="login-password" id="login-password"
+                                required>
+                        </div>
+                        <p class="info">Minimum 6 characters ...</p>
+                    </div>
+                </fieldset>
+
+                <input type="submit" class="button" value="Login">
+
+
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

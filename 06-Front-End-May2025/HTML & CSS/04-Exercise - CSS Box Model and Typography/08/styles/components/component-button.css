@@ -1,0 +1,114 @@
+.icons .icon {
+    display: inline-block;
+    background: #eee;
+    border-radius: 50%;
+    width: 3em;
+    aspect-ratio: 1/1;
+    text-align: center;
+    line-height: 2.9em;
+    margin: 0 0.2em;
+    color: #000;
+    transition: 
+    background-color 0.3s ease-in,
+    color 0.5s ease-in;
+}
+
+.icons .icon:hover {
+    background: blue;
+    color: #FFF;
+}
+
+.click1 {
+    display: inline-block;
+    border: 1px solid lightgrey;
+    background: rgb(231, 229, 229);
+    padding: 0.7em;
+    margin: 0.6em;
+    border-radius: 0.2em;
+    color: #000;
+    width: 6em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.click1:hover {
+    background: red;
+    color: #FFF;    
+}
+
+.click2 {
+    display: inline-block;
+    border: 1px solid lightgrey;
+    background: orange;
+    padding: 0.7em;
+    margin-right: 0.6em;
+    border-radius: 0.2em;
+    color: #000;
+    width: 6em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.click2:hover {
+    background: red;
+    color: #FFF;
+}
+
+.click3 {
+    display: inline-block;
+    border: 1px solid lightgrey;
+    background: lightgoldenrodyellow;
+    padding: 0.7em;
+    margin-right: 0.6em;
+    border-radius: 0.2em;
+    color: #000;
+    width: 6em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.click3:hover {
+    background: red;
+    color: #FFF;
+}
+
+.click4 {
+    display: inline-block;
+    border: 1px solid lightgrey;
+    background: none;
+    padding: 0.7em;
+    margin-right: 0.6em;
+    border-radius: 0.2em;
+    color: #000;
+    width: 6em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.click4:hover {
+    background: red;
+    color: #FFF;
+}
+
+.edit {
+    display: inline-block;
+    border: 1px solid lightgrey;
+    background: rgb(231, 229, 229);
+    padding: 0.7em;
+    margin-right: 0.6em;
+    border-radius: 0.2em;
+    color: #000;
+    width: 6em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.edit:hover {
+    background: red;
+    color: #FFF;
+}

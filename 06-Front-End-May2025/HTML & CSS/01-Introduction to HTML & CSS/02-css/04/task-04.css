@@ -1,0 +1,28 @@
+header a {
+    text-decoration: none;
+}
+
+h1 {
+    color: rgb(8, 221, 54);
+}
+
+header nav a {
+    color: orange;
+}
+main.site-content >.service {
+    background-color: lightblue;
+}
+
+.service + .service {
+    color: red;
+}
+
+.site-content h2 ~ section {
+    background: #EEE;
+}
+
+.service:nth-child(3) {
+    font-size: 2em;
+    color: red;
+    font-weight: bold;
+}

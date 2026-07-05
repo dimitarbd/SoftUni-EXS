@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component banner</title>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        padding: 2em;
+        font: 14px/1.5 Lato, sans-serif;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .banner {
+        position: relative;
+        box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.2);
+        color: black;
+    }
+
+    .banner img {
+        position: relative;
+       
+    }
+
+    .banner header {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: white;
+        translate: -50% -50%;
+        text-align: center;
+    }
+</style>
+
+<body>
+
+    <section class="banner">
+        <img src="./images/image1.jpg" alt="">
+        <header>
+            <h2>The Fancy Lounge</h2>
+            <p>A place for relaxation and engaging conversation</p>
+        </header>
+    </section>
+
+</body>
+
+</html>

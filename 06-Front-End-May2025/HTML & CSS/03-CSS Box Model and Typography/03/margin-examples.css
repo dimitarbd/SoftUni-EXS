@@ -1,0 +1,28 @@
+div {
+    border: 2px solid black;
+}
+
+.uniform-margin {
+    margin: 20px;
+}
+
+.non-uniform-margin {
+    margin: 10px 30px 20px 40px;
+}
+
+.negative-margin {
+    margin: -20px;
+}
+
+.container {
+    padding: 1em 2em 5em 2em;
+}
+
+.auto-margin {
+    margin: auto;
+}
+
+.center-margin {
+    margin: 0 auto;
+}
+

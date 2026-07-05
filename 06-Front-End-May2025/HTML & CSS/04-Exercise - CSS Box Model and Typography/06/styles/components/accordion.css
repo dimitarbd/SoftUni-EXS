@@ -1,0 +1,39 @@
+.accordion {
+    --size-padding-inline: 3em;
+    --size-border-width: 2px;
+    --clr-border: blue;
+
+    border: var(--size-border-width) solid var(--clr-border);
+}
+
+.accordion p {
+    padding: 1em;
+}
+
+.accordion p:last-child {
+    padding: 0, 0, 0, 1em;
+    border-bottom: var(--size-border-width) solid var(--clr-border);
+}
+
+.accordion details summary {
+    padding-block: calc(var(--size-padding-inline) / 2);
+    padding-inline: var(--size-padding-inline);
+}
+
+.accordion details summary {
+    border-bottom: var(--size-border-width) solid var(--clr-border);
+}
+
+.accordion details:last-child:not[open] summary {
+    border-bottom: none;
+}
+
+.accordion details[open]::details-content {
+    padding-block: var(--size-padding-inline);
+    padding-inline: var(--size-padding-inline)
+}
+
+
+.accordion details:not(:last-child)[open]::details-content {
+    border-bottom: var(--size-border-width) solid var(--clr-border);
+}
