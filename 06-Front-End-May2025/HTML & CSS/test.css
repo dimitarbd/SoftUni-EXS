@@ -11,3 +11,8 @@
     align-items: center;
 }
 
+.box {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
