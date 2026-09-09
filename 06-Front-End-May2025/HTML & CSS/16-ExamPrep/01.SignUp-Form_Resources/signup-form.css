@@ -90,3 +90,9 @@ label {
     pointer-events: none;
     font-size: 22px;
 }
+
+.popup {
+    position: fixed;
+    top: auto;
+    left: auto;
+}
