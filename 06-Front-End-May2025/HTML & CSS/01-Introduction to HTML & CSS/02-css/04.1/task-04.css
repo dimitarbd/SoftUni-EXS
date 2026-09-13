@@ -2,3 +2,7 @@ header a {
     text-decoration: none;
 }
 
+header .site-title a {
+    color: #090;
+}
+
