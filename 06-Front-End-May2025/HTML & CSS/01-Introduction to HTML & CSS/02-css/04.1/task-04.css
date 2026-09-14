@@ -6,3 +6,24 @@ header .site-title a {
     color: #090;
 }
 
+header nav a {
+    color: orange;
+}
+
+main.site-content>.service {
+    background: lightblue;
+}
+
+.service + .service {
+    color: red;
+}
+
+.site-content h2 ~ section {
+    background: yellow;
+}
+
+.service:nth-child(3) {
+    font-size: 2em;
+    color: red;
+    font-weight: bold;
+}
