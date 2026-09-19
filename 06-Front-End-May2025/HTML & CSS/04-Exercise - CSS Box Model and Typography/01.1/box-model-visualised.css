@@ -19,7 +19,7 @@
     display: block;
     text-transform: lowercase;
     position: absolute;
-    top: 0;
+    top: 0.1em;
     left: 1em;
 }
 
@@ -37,5 +37,19 @@
 }
 
 .box-model .margin {
-    background-color: lightcoral;
+    background-color: rgb(247, 185, 115);
 }
+
+.box-model.pseudo-elements div::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 1em;
+}
+
+.box-model.pseudo-elements .margin::before {content: "margin";}
+.box-model.pseudo-elements .border::before {content: "border";}
+.box-model.pseudo-elements .padding::before {content: "padding";}
+
+
