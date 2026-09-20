@@ -34,7 +34,6 @@ body>* {
     box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
     border-radius: 0.3em;
     display: flex;
-    flex-wrap: wrap;
     gap: 1em;
 }
 
@@ -45,22 +44,63 @@ body>* {
 
 .calendar>* {
     border: 1px solid #ccc;
-    flex: 1 1 auto
+    flex: 1 1 auto;
 }
 
-.calendar .main {
-    flex-basis: 60%;
+.calendar .main,
+.calendar .aside {
+    display: flex;
+    flex-direction: column;
 }
 
 .calendar .aside {
     flex-basis: 30ch;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+}
+
+.calendar .main>*,
+.calendar .aside>* {
+    flex-grow: 1;
 }
 
 .calendar .aside div {
     padding: 1em;
     border: 1px solid #ccc;
+    flex: 1 1 auto;
+    text-align: center;
 }
 
+.calendar .row {
+    display: flex;
+    flex-direction: column;
+}
+
+.calendar .row>* {
+    flex-grow: 1;
+}
+
+.calendar .row header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+.calendar .row header h2 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+
+.calendar .row ul {
+    display: flex;
+}
+
+.calendar .row>ul li {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
