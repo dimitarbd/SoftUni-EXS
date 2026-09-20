@@ -35,9 +35,32 @@ body>* {
     border-radius: 0.3em;
     display: flex;
     flex-wrap: wrap;
-    gap: 1 em;
+    gap: 1em;
 }
 
 .calendar {
     display: flex;
+    gap: 0;
 }
+
+.calendar>* {
+    border: 1px solid #ccc;
+    flex: 1 1 auto
+}
+
+.calendar .main {
+    flex-basis: 60%;
+}
+
+.calendar .aside {
+    flex-basis: 30ch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar .aside div {
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
