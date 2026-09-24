@@ -40,12 +40,45 @@ img {
         }
 
         .content {
+            margin-left: 2em;
+
             h2 {
-                font-size: 4em;
+                font-size: 3em;
                 line-height: 1.2;
                 max-width: 14ch;
                 margin-bottom: 0.5em;
             }
+
+            p {
+                padding-bottom: 2em;
+            }
+
+            .button {
+                display: inline-block;
+                background-color: #eee;
+                padding: 1em 2em;
+                text-decoration: none;
+                color: black;
+                border-radius: 0.5em;
+
+                &+.button {
+                    margin-left: 1em;
+                }
+
+                &.primary {
+                    background-color: green;
+                    border: 1px solid black;
+
+                }
+
+                &:hover {
+                    background-color: black;
+                    color: #eee;
+                }
+            }
+
+
+
         }
     }
 }
